@@ -7,7 +7,7 @@
             class="carousel-track"
             :style="{
               transform: `translateX(-${currentPosition}px)`,
-              transition: isTransitioning ? 'transform 0.5s ease' : 'none',
+              transition: isTransitioning ? 'transform 15.5s ease' : 'none',
             }"
             @transitionend="handleTransitionEnd"
           >
@@ -32,10 +32,10 @@
 
 <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
-import tree from "../assets/images/Home/bOvf94dPRxWu0u3QsPjF_tree.avif"
-import bird from "../assets/images/Home/bird-8788491_1280.avif"
-import mountain from "../assets/images/Home/painting-mountain-lake-with-mountain-background_188544-9126.avif"
-import leaf from "../assets/images/Home/abstract-autumn-beauty-multi-colored-leaf-vein-pattern-generated-by-ai_188544-9871.avif"
+import tree from "../assets/images/Home/033.jpg"
+import bird from "../assets/images/Home/062.jpg"
+import mountain from "../assets/images/Home/020.jpg"
+import leaf from "../assets/images/Home/fee 245.jpg"
 
 // Carousel items data
 const carouselItems = ref([

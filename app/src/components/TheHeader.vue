@@ -8,21 +8,21 @@
       }"
     >
       <!-- Navigation specific to homepage -->
-      <section v-if="isHomePage" class="bg-secondary-color py-4">
-        <div class="flex justify-end items-center list-none px-5 space-x-10">
+      <section v-if="isHomePage" class="bg-pink-400 py-4">
+        <div class="flex justify-start items-center list-none px-5 space-x-10">
           <ul class="flex gap-5">
             <li>
               <router-link
                 to="/techhub"
-                class="text-white hover:text-gray-400"
+                class="text-white hover:text-gray-900"
                 @click.native="closeMenu"
-                >Tech-hub</router-link
+                >Innovation-hub</router-link
               >
             </li>
             <li>
               <router-link
                 to="/contact"
-                class="text-white hover:text-gray-400"
+                class="text-white hover:text-gray-900"
                 @click.native="closeMenu"
                 >Enquiries</router-link
               >
