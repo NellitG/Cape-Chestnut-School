@@ -5,7 +5,7 @@
       <div
         class="w-full mx-auto max-w-screen-xl p-4 flex items-center justify-between"
       >
-        <img src="@/assets/images/logo.png" alt="Company Logo" class="h-24" />
+        <!-- <img src="@/assets/images/logo.png" alt="Company Logo" class="h-24" /> -->
       </div>
       <div
         class="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3"
@@ -83,7 +83,7 @@
           class="w-full mx-auto max-w-screen-xl p-5 md:flex md:items-center md:justify-between"
         >
           <span class="text-sm text-gray-500 sm:text-center"
-            >© 2024.Profia Institute. All Rights Reserved
+            >© 2024.Cape Chestnut School. All Rights Reserved
           </span>
           <ul
             class="flex flex-wrap items-center mt-3 text-sm font-medium text-gray-500 sm:mt-0 gap-5"

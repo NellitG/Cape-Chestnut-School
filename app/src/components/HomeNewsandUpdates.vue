@@ -15,16 +15,15 @@
         <div class="bg-orange-100 p-4 border mb-4 max-w-6xl mx-auto">
           <h2 class="text-lg font-semibold mb-2">Notice</h2>
           <p>
-            ATTENTION CPA, ATD AND CAMS STUDENTS RE: FEE CLEARANCE You are
-            reminded the above stated students were required to settle their fee
-            balances by 5th March 2024. All CPA, ATD, AND CAMS Students are
-            therefore required to clear their fee balances. Any student who will
+            ATTENTION TO ALL PARENTS: FEE CLEARANCE You are
+            reminded that students are required to settle their fee
+            balances by end of term. Any student who will
             not have cleared, will not be allowed to attend classes In case of
             clarification visit the administration office. Regards,
           </p>
         </div>
 
-        <section class="py-10 lg:py-20 max-w-7xl mx-auto px-4 sm:px-8">
+        <!-- <section class="py-10 lg:py-20 max-w-7xl mx-auto px-4 sm:px-8">
           <h2 class="text-4xl font-semi-bold mb-12">
             Life in Profia Institute
           </h2>
@@ -94,7 +93,7 @@
             </div>
 
           </div>
-        </section>
+        </section> -->
       </div>
     </body>
   </div>
