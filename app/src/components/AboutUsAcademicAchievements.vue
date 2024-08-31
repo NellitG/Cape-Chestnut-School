@@ -2,12 +2,12 @@
   <div class="text-gray-800 ">
     <section class="max-w-7xl mx-auto py-5">
       <h1
-        class="text-secondary-color text-center text-3xl md:text-5xl font-bold sm:mb-16 mb-28 pb-6"
+        class="text-pink-400 text-center text-3xl md:text-5xl font-bold sm:mb-16 mb-28 pb-6"
       >
         Academic Achievements
       </h1>
       <div
-        class="relative bg-slate-200 sm:rounded-tr-3xl h-auto lg:h-96 sm:w-[90%] lg:w-[800px] mx-auto pb-4 px-4 md:px-12"
+        class="relative sm:rounded-tr-3xl h-auto lg:h-96 sm:w-[90%] lg:w-[800px] mx-auto pb-4 px-4 md:px-12 border bg-slate-100"
       >
         <h1 class="text-center font-bold text-2xl py-2 text-gray-600">
           Laurina Cebrels Dracula
@@ -18,10 +18,10 @@
           deserunt quia iusto velit sed. Nihil, expedita delectus.
         </p>
         <div
-          class="absolute h-56 w-52 opacity-30 sm:opacity-100 bottom-12 left-20 sm:-bottom-7 sm:-left-40 md:-left-20 mb-20"
+          class="relative h-56 w-96 opacity-30 sm:opacity-100 bottom-12 left-20 sm:-bottom-7 sm:-left-40 md:-left-20 mb-20"
         >
           <img
-            src="../assets/images/alexander-krivitskiy.avif"
+            src="../assets/images/032.jpg"
             class="rounded-2xl"
             alt=""
           />
@@ -29,7 +29,7 @@
       </div>
 
       <div
-        class="relative bg-slate-200 h-auto sm:h-[400px] lg:h-96 sm:w-[90%] lg:w-[800px] mx-auto mt-20 sm:rounded-bl-3xl pb-6 px-4 md:px-8"
+        class="relative bg-slate-200 h-auto sm:h-[400px] lg:h-96 sm:w-[90%] lg:w-[800px] mx-auto mt-32 sm:rounded-bl-3xl pb-6 px-6 md:px-8"
       >
         <h1 class="text-center font-bold text-2xl py-2 text-gray-600">
           Veleria Van Helsing

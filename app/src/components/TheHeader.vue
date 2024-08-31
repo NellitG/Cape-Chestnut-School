@@ -8,7 +8,7 @@
       }"
     >
       <!-- Navigation specific to homepage -->
-      <section v-if="isHomePage" class="bg-pink-400 py-4">
+      <!-- <section v-if="isHomePage" class="bg-pink-400 py-4">
         <div class="flex justify-start items-center list-none px-5 space-x-10">
           <ul class="flex gap-5">
             <li>
@@ -29,7 +29,7 @@
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
       <!-- Header content -->
       <div
