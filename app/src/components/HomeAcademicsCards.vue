@@ -1,11 +1,11 @@
 <template>
   <section class="py-10 lg:py-20 max-w-7xl mx-auto px-4 sm:px-8">
-    <h2 class="text-4xl font-bold text-center mb-12">Academics</h2>
+    <h2 class="text-4xl font-bold text-center mb-12">What We Do</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- Card 1 -->
       <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
         <img
-          src="../assets/images/Accounts/kelly-sikkema-xoU52jUVUXA-unsplash.avif"
+          src="../assets/images/Accounts/017.jpg"
           alt="Night Lights"
           class="w-full h-1/2 object-cover"
         />
@@ -14,25 +14,24 @@
         >
           <div>
             <h1 class="text-2xl font-semibold text-white">
-              SCHOOL OF BUSINESS
+              PLAYING ACTIVITIES
             </h1>
             <p class="text-white py-3">
-              offers a diverse range of undergraduate and graduate programs
-              designed to meet the needs of aspiring business professionals.
+              We offer a wide range of sporting activities designed to suit all ages and skill levels, ensuring there’s something for everyone. Whether you're a seasoned athlete or just looking to have fun, our diverse selection is tailored to meet your needs.
             </p>
           </div>
-          <router-link
+          <!-- <router-link
             to="/schoolofbusiness"
             class="text-black font-semibold hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-end"
             >Read More</router-link
-          >
+          > -->
         </div>
       </div>
 
       <!-- Card 2 -->
       <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">
         <img
-          src="../assets/images/Hospitality/pexels-tima-miroshnichenko-6195120.avif"
+          src="../assets/images/Hospitality/fee 007.jpg"
           alt="Welcome Aboard"
           class="w-full h-1/2 object-cover"
         />
@@ -41,19 +40,17 @@
         >
           <div>
             <h1 class="text-2xl font-semibold text-white">
-              SCHOOL OF HOSPITALITY
+              AGRICULTURAL ACTIVITIES
             </h1>
             <p class="text-white py-3">
-              Offers specialized education in various facets of the hospitality
-              industry, equipping students with both theoretical and practical
-              skills.
+              We offer a diverse range of agricultural activities that cater to enthusiasts, students, and families alike. Our programs and experiences aim to educate and engage participants in the world of farming and sustainable practices.
             </p>
           </div>
-          <router-link
+          <!-- <router-link
             to="/schoolofhospitality"
             class="text-black font-semibold text-lg hover:cursor-pointer px-6 py-2 bg-white rounded-3xl self-end"
             >Read More</router-link
-          >
+          > -->
         </div>
       </div>
 
