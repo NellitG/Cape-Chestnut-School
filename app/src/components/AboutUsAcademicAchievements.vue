@@ -52,24 +52,28 @@
 
     <div class="text-center max-w-full mx-auto space-y-5 py-10 mt-24 lg:mt-0 md:mt-0 bg-gray-200
       ">
-        <h2 class="font-bold text-3xl md:text-5xl text-secondary-color">
+        <h2 class="font-semibold text-3xl md:text-5xl text-pink-400">
           Our History
         </h2>
         <p class="max-w-4xl mx-auto text-left">
-         Cape Chestnut School has a remarkable history that began in 2018 with a humble yet inspiring start. Founded with a vision to provide personalized and quality education, the school opened its doors with just one student, a bright and curious child named Dawn.
+         Cape Chestnut School has a remarkable history that began in 2018 with a humble yet inspiring start.
+         Founded with a vision to provide personalized and quality education, the school opened its doors with just one student, a bright and curious child named Dawn.
         </p>
 
-        <h3 class="text-2xl text-secondary-color pt-6">From Humble Beginnings to Flourishing Institution:</h3>
+        <h3 class="text-2xl text-secondary-color pt-6">Established institution</h3>
         <p class="max-w-4xl mx-auto text-left">
-          From that small beginning, Cape Chestnut School has grown steadily over the years, embracing a philosophy centered on nurturing the unique potential of each child. With a dedicated team of passionate educators, the school quickly gained a reputation for its innovative teaching methods, supportive environment, and commitment to fostering a love of learning.
+          From that small beginning, Cape Chestnut School has grown steadily over the years, embracing a philosophy centered on nurturing the unique potential of each child. 
+          With a dedicated team of passionate educators, the school quickly gained a reputation for its innovative teaching methods, supportive environment, and commitment to fostering a love of learning.
         </p>
-        <h3 class="text-2xl text-secondary-color pt-6">A Spectrum of Opportunity:</h3>
+        <h3 class="text-2xl text-secondary-color pt-6">The Programs</h3>
         <p class="max-w-4xl mx-auto text-left">
-          As the years have passed, Cape Chestnut School has expanded its programs and facilities to accommodate a growing number of students. It now offers a wide range of activities, including a successful STEM program, a vibrant arts curriculum, and an engaging agricultural initiative that teaches students about sustainable farming.
+          As the years have passed, Cape Chestnut School has expanded its programs and facilities to accommodate a growing number of students. 
+          It now offers a wide range of activities, including a successful STEM program, a vibrant arts curriculum, and an engaging agricultural initiative that teaches students about sustainable farming and also technology.
         </p>
         <h3 class="text-2xl text-secondary-color pt-6 ">Investing in the Future:</h3>
         <p class="max-w-4xl mx-auto text-left">
-          Today, Cape Chestnut School is a thriving educational community known for its dedication to student growth and achievement. From its humble beginnings with one student, it has blossomed into a place where children are encouraged to explore, create, and thrive, making it a cherished institution in the community.
+          Today, Cape Chestnut School is a thriving educational community known for its dedication to student growth and achievement.
+          From its humble beginnings with one student, it has blossomed into a place where children are encouraged to explore, create, and thrive, making it a cherished institution in the community.
         </p>
       </div>
   </div>
