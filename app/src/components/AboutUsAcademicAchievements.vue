@@ -9,16 +9,16 @@
       <div
         class="relative sm:rounded-tr-3xl h-auto lg:h-96 sm:w-[90%] lg:w-[800px] mx-auto pb-4 px-4 md:px-12 border bg-slate-100"
       >
-        <h1 class="text-center font-bold text-2xl py-2 text-gray-600">
-          Laurina Cebrels Dracula
+        <h1 class="text-center font-semibold text-2xl py-2 text-gray-950">
+          Graduation Ceremonies
         </h1>
         <p class="px-5 md:px-20 md:text-center py-5 text-lg">
-          A degree in Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Nostrum, eaque eligendi nemo voluptatem libero corporis aperiam, error
-          deserunt quia iusto velit sed. Nihil, expedita delectus.
+          We are thrilled to announce a wonderful achievement: the graduation of over 50 kindergarten students! 
+          This milestone marks the beginning of a new chapter in their educational journey. 
+          Each of these young graduates has shown tremendous growth, curiosity, and enthusiasm throughout the year.
         </p>
         <div
-          class="relative h-56 w-96 opacity-30 sm:opacity-100 bottom-12 left-20 sm:-bottom-7 sm:-left-40 md:-left-20 mb-20"
+          class="relative h-56 w-80 opacity-30 sm:opacity-100 bottom-12 left-20 sm:-bottom-7 sm:-left-40 md:-left-20 mb-20"
         >
           <img
             src="../assets/images/032.jpg"
@@ -32,18 +32,18 @@
         class="relative bg-slate-200 h-auto sm:h-[400px] lg:h-96 sm:w-[90%] lg:w-[800px] mx-auto mt-32 sm:rounded-bl-3xl pb-6 px-6 md:px-8"
       >
         <h1 class="text-center font-bold text-2xl py-2 text-gray-600">
-          Veleria Van Helsing
+          Participation in Agricultural Activities
         </h1>
-        <p class="px-5 md:px-20 py-5 text-lg md:text-center">
+        <p class="px-5 md:px-20 py-5 lg:text-left text-lg md:text-center">
           A masters in Lorem ipsum dolor sit amet consectetur adipisicing elit.
           Nesciunt, numquam eius dolorum, ut voluptas tenetur ipsum est enim
           culpa tempora nobis! Corporis mollitia ipsum nihil.
         </p>
         <div
-          class="absolute h-56 opacity-30 sm:opacity-100 w-52 top-16 right-20 sm:-top-7 sm:-right-40 md:-right-20"
+          class="absolute inset-y-0 right-0 h-56 opacity-30 sm:opacity-100 w-72 top-100 sm:-top-7 sm:-right-40 md:-right-20"
         >
           <img
-            src="../assets/images/andrey-k.avif"
+            src="../assets/images/012.jpg"
             class="rounded-2xl"
             alt=""
           />
