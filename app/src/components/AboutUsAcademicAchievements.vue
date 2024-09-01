@@ -35,19 +35,17 @@
           Participation in Agricultural Activities
         </h1>
         <p class="px-5 md:px-20 py-5 lg:text-left text-lg md:text-center">
-          A masters in Lorem ipsum dolor sit amet consectetur adipisicing elit.
-          Nesciunt, numquam eius dolorum, ut voluptas tenetur ipsum est enim
-          culpa tempora nobis! Corporis mollitia ipsum nihil.
+          We are excited to celebrate another fantastic achievement at our school: the successful implementation of our student-led agricultural program! Through this initiative, students have had the opportunity to learn about sustainable farming practices by growing their own fruits, vegetables, and herbs in our school garden. 
         </p>
-        <div
-          class="absolute inset-y-0 right-0 h-56 opacity-30 sm:opacity-100 w-72 top-100 sm:-top-7 sm:-right-40 md:-right-20"
+        <!-- <div
+          class="relative inset-y-0 right-0 h-56 opacity-30 sm:opacity-100 w-72 top-100 sm:-top-7 sm:-right-40 md:-right-20"
         >
           <img
             src="../assets/images/012.jpg"
             class="rounded-2xl"
             alt=""
           />
-        </div>
+        </div> -->
       </div>
       
     </section>
@@ -58,53 +56,20 @@
           Our History
         </h2>
         <p class="max-w-4xl mx-auto text-left">
-          Cultivating Potential in Homa Bay , Nyanza Region and beyond. Profia
-          Institution, established in October 2018, is a testament to the power
-          of virtue-driven education in Homa Bay County. With a resolute focus
-          on fostering sustainable growth within the community, Profia offers a
-          diverse range of developmental courses that empower individuals and
-          equip them with the skills necessary to thrive in the ever-evolving
-          job market.
+         Cape Chestnut School has a remarkable history that began in 2018 with a humble yet inspiring start. Founded with a vision to provide personalized and quality education, the school opened its doors with just one student, a bright and curious child named Dawn.
         </p>
 
         <h3 class="text-2xl text-secondary-color pt-6">From Humble Beginnings to Flourishing Institution:</h3>
         <p class="max-w-4xl mx-auto text-left">
-          Profia's journey began in 2018 as a business school, catering to the
-          growing demand for business acumen within the region. Recognizing the
-          need for a well-rounded educational experience, Profia has steadily
-          expanded its course offerings to encompass a comprehensive curriculum.
-          Today, students can pursue certifications from esteemed organisations
-          like KASNEB (Kenya Accountants and Secretaries National Examinations
-          Board), NITA (National Industrial Training Authority), and TVET
-          (Technical and Vocational Education and Training).
+          From that small beginning, Cape Chestnut School has grown steadily over the years, embracing a philosophy centered on nurturing the unique potential of each child. With a dedicated team of passionate educators, the school quickly gained a reputation for its innovative teaching methods, supportive environment, and commitment to fostering a love of learning.
         </p>
         <h3 class="text-2xl text-secondary-color pt-6">A Spectrum of Opportunity:</h3>
         <p class="max-w-4xl mx-auto text-left">
-          Profia's course catalogue boasts a variety of options, catering to a
-          wide range of aspirations. Individuals seeking careers in finance can
-          delve into the intricacies of accounting through the CPA (Certified
-          Public Accountant) program. For those with a passion for technology,
-          Profia's ICT (Information and Communication Technology) courses
-          provide the necessary foundation for success in the digital age.
-          Business courses equip students with the knowledge and skills to
-          navigate the dynamic world of commerce, while programs in hospitality,
-          cosmetology, and plumbing cater to specialised vocations that are
-          crucial to the community's infrastructure.
+          As the years have passed, Cape Chestnut School has expanded its programs and facilities to accommodate a growing number of students. It now offers a wide range of activities, including a successful STEM program, a vibrant arts curriculum, and an engaging agricultural initiative that teaches students about sustainable farming.
         </p>
         <h3 class="text-2xl text-secondary-color pt-6 ">Investing in the Future:</h3>
         <p class="max-w-4xl mx-auto text-left">
-          Profia's commitment to excellence extends beyond its curriculum. The
-          institution boasts a state-of-the-art ICT lab, ensuring students have
-          access to the latest technology and fostering a dynamic learning
-          environment. At the heart of Profia lies its dedicated faculty – a
-          team of 15 strong tutors who share their expertise and passion with a
-          current student population of 95. This close-knit community fosters
-          personalised attention and a supportive learning atmosphere. Profia
-          Institution's story is one of continuous growth and unwavering
-          dedication to its students and the community. As Homa Bay County
-          marches forward, Profia stands as a beacon of opportunity, shaping
-          futures and empowering individuals to become the architects of their
-          own success.
+          Today, Cape Chestnut School is a thriving educational community known for its dedication to student growth and achievement. From its humble beginnings with one student, it has blossomed into a place where children are encouraged to explore, create, and thrive, making it a cherished institution in the community.
         </p>
       </div>
   </div>
