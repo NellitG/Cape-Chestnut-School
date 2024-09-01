@@ -50,9 +50,9 @@
       
     </section>
 
-    <div class="text-center max-w-full mx-auto space-y-5 py-10 mt-24 lg:mt-0 md:mt-0 bg-gray-200
+    <div class="text-center max-w-full mx-auto space-y-5 py-10 mt-24 lg:mt-0 md:mt-0
       ">
-        <h2 class="font-semibold text-3xl md:text-5xl text-pink-400">
+        <h2 class="text-2xl md:text-3xl text-secondary-color">
           Our History
         </h2>
         <p class="max-w-4xl mx-auto text-left">
