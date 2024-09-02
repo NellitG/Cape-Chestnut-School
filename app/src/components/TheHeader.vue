@@ -49,9 +49,9 @@
             @click.native="closeMenu"
           >
             <img
-              src="@/assets/images/logo.png"
+              src="@/assets/images/cape chestnut.jpg.png"
               alt="Logo"
-              class="h-8 lg:h-12 mb-2"
+              class="h-8 lg:h-28 mb-0 mt-6 ml-12"
             />
           </router-link>
         </div>
@@ -84,7 +84,7 @@
                 <span>Academics</span>
                 <span class="ml-1">&#9662;</span>
               </router-link>
-              <div
+              <!-- <div
                 class="absolute hidden group-hover:block lg:bg-gray-100 bg-blue-500 text-gray-900 p-4 rounded mt-2 lg:mt-0 lg:w-96 left-0 w-96"
               >
                 <div class="grid grid-cols-2 lg:gap-4">
@@ -122,7 +122,7 @@
                     </router-link>
                   </div>
                 </div>
-              </div>
+              </div> -->
             </li>
             <li>
               <router-link
