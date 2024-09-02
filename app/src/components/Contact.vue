@@ -1,73 +1,109 @@
 <template>
-  <section class="py-10 lg:py-20 max-w-7xl mx-auto px-4 sm:px-8">
-    <div
-      class="w-full max-w-6xl flex justify-end px-8 mx-auto bg-secondary-color text-black text-center text-3xl font-semibold rounded-lg py-4 mb-10"
-    >
-      <h2 class="text-white">Reach out to us</h2>
-    </div>
-    <div class="flex justify-start ml-20 -mt- items-center -mt-16">
-      <div class="bg-gray-200 p-4 rounded-lg shadow-lg">
-        <div class="bg-white p-4 rounded-lg space-y-4 text-lg">
-          <p>Profia Institute</p>
-          <p>P.O Box 323-40300</p>
-          <p>Homa Bay</p>
-        </div>
-      </div>
-    </div>
-    <div
-      class="flex flex-col items-center sm:items-start pl-4 sm:pl-48 justify-center mt-7 text-center sm:text-left space-y-3 text-lg"
-    >
-      <p><span class="font-semibold">Email:</span> profiainstitute@gmail.com</p>
-      <p>
-        <span class="font-semibold">Phone Number:</span> 0710221122, 0793977991
-      </p>
-    </div>
-
-    <div class="mx-2 sm:mx-12 mt-20 gap-8 flex">
-      <form
-        class="flex flex-col gap-4 w-[300px] sm:w-4/5 md:w-5/6 lg:w-3/6 mx-auto"
-      >
-        <input
-          class="text-lg sm:text-xl p-2 sm:p-3 border-[1px] border-gray-400"
-          type="text"
-          placeholder="Full Name:"
-        />
-        <input
-          class="text-lg sm:text-xl p-2 sm:p-3 border-[1px] border-gray-400"
-          type="text"
-          placeholder="Email:"
-        />
-        <input
-          class="text-lg sm:text-xl p-2 sm:p-3 border-[1px] border-gray-400"
-          type="number"
-          placeholder="Number:"
-        />
-        <textarea
-          class="text-lg sm:text-xl p-2 sm:p-3 h-32 sm:h-44 border-[1px] border-gray-400"
-          name="comment"
-          placeholder="Enter text here..."
-        ></textarea>
-        <button
-          class="text-sm sm:text-lg text-white p-2 sm:p-3 bg-primary-color w-32 sm:w-44 rounded-xl"
-        >
-          Send message
-        </button>
-      </form>
-
+ <section class="gradient-form h-full bg-neutral-200 dark:bg-neutral-700 ">
+    <div class="container h-full p-10 ">
       <div
-        class="min-h-56 w-full lg:w-6/12 text-white justify-center items-center p-4 lg:p-8 hidden md:block lg:block"
-      >
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15958.577394944372!2d34.4575996!3d-0.5350592!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x19d4d58bffe5db35%3A0x403b4b18e49e44b9!2sProfia%20Institute%20of%20Professionals!5e0!3m2!1sen!2ske!4v1719481692840!5m2!1sen!2ske"
-          width="650"
-          height="500"
-          style="border: 0"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          class="rounded-xl"
-          title="map"
-        ></iframe>
+        class="flex h-full flex-wrap items-center justify-center text-neutral-800 dark:text-neutral-200">
+        <div class="w-full">
+          <div
+            class="block rounded-lg bg-white shadow-lg dark:bg-neutral-800">
+            <div class="g-0 lg:flex lg:flex-wrap">
+              <!-- Left column container-->
+              <div class="px-4 md:px-0 lg:w-6/12">
+                <div class="md:mx-6 md:p-12">
+                  <!--Logo-->
+                  <div class="text-center">
+                    <img
+                      class="mx-auto w-48"
+                      src="@/assets/images/cape chestnut.jpg.png"
+                      alt="logo" />
+                    <h4 class="mb-12 mt-10 pb-1 text-3xl font-semibold">
+                      Register Today
+                    </h4>
+                  </div>
+  
+                  <form>
+                    <!-- <p class="mb-4 font-semibold">Please register an account</p> -->
+                    <!--Username input-->
+                    <div class="relative mb-8 " data-twe-input-wrapper-init>
+                      <input
+                        type="text"
+                        class="peer block min-h-[auto] w-full rounded border-2 border-black bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
+                        id="exampleFormControlInput1"
+                        placeholder="Username" />
+                      <label
+                        for="exampleFormControlInput1"
+                        class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-400 dark:peer-focus:text-primary"
+                        >Email address
+                      </label>
+                    </div>
+  
+                    <!--Password input-->
+                    <div class="relative mb-4" data-twe-input-wrapper-init>
+                      <input
+                        type="password"
+                        class="peer block min-h-[auto] w-full rounded border-2 borderblack bg-transparent px-3 py-[0.32rem] leading-[1.6] outline-none transition-all duration-200 ease-linear focus:placeholder:opacity-100 peer-focus:text-primary data-[twe-input-state-active]:placeholder:opacity-100 motion-reduce:transition-none dark:text-white dark:placeholder:text-neutral-300 dark:autofill:shadow-autofill dark:peer-focus:text-primary [&:not([data-twe-input-placeholder-active])]:placeholder:opacity-0"
+                        id="exampleFormControlInput11"
+                        placeholder="Password" />
+                      <label
+                        for="exampleFormControlInput11"
+                        class="pointer-events-none absolute left-3 top-0 mb-0 max-w-[90%] origin-[0_0] truncate pt-[0.37rem] leading-[1.6] text-neutral-500 transition-all duration-200 ease-out peer-focus:-translate-y-[0.9rem] peer-focus:scale-[0.8] peer-focus:text-primary peer-data-[twe-input-state-active]:-translate-y-[0.9rem] peer-data-[twe-input-state-active]:scale-[0.8] motion-reduce:transition-none dark:text-neutral-400 dark:peer-focus:text-primary"
+                        >Password
+                      </label>
+                    </div>
+  
+                    <!--Submit button-->
+                    <div class="mb-12 pb-1 pt-1 text-center">
+                      <button
+                        class="mb-3 inline-block w-full rounded px-6 pb-2 pt-2.5 text-xs font-medium uppercase leading-normal text-white shadow-dark-3 transition duration-150 ease-in-out hover:shadow-dark-2 focus:shadow-dark-2 focus:outline-none focus:ring-0 active:shadow-dark-2 dark:shadow-black/30 dark:hover:shadow-dark-strong dark:focus:shadow-dark-strong dark:active:shadow-dark-strong"
+                        type="button"
+                        data-twe-ripple-init
+                        data-twe-ripple-color="light"
+                        style="
+                          background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+                        ">
+                        Sign up
+                      </button>
+  
+                      <!--Forgot password link-->
+                      <a href="#!">Terms and conditions</a>
+                    </div>
+  
+                    <!--Register button-->
+                    <div class="flex items-center justify-between pb-6">
+                      <p class="mb-0 me-2">Have an account?</p>
+                      <button
+                        type="button"
+                        class="inline-block rounded border-2 border-danger px-6 pb-[6px] pt-2 text-xs font-medium uppercase leading-normal text-danger transition duration-150 ease-in-out hover:border-danger-600 hover:bg-danger-50/50 hover:text-danger-600 focus:border-danger-600 focus:bg-danger-50/50 focus:text-danger-600 focus:outline-none focus:ring-0 active:border-danger-700 active:text-danger-700 dark:hover:bg-rose-950 dark:focus:bg-rose-950"
+                        data-twe-ripple-init
+                        data-twe-ripple-color="light">
+                        Login
+                      </button>
+                    </div>
+                    
+                  </form>
+                </div>
+              </div>
+  
+              <!-- Right column container with background and description-->
+              <div
+                class="flex items-center rounded-b-lg lg:w-6/12 lg:rounded-e-lg lg:rounded-bl-none"
+                style="background: linear-gradient(to right, #b44593, #b44593, #b44593, #4ade80)">
+                <div class="px-4 py-6 text-white md:mx-6 md:p-12">
+                  <h4 class="mb-6 text-xl font-semibold">
+                    We are more than just a company
+                  </h4>
+                  <p class="text-sm">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing
+                    elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis
+                    nostrud exercitation ullamco laboris nisi ut aliquip ex
+                    ea commodo consequat.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
