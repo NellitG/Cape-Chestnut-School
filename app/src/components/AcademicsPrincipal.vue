@@ -1,7 +1,7 @@
 <template>
   <div class="pb-10">
     <h1
-      class="flex justify-center items-center text-4xl text-secondary-color font-bold mb-4"
+      class="flex justify-center items-center ml-8 text-4xl text-secondary-color font-bold mb-4"
     >
       ACADEMICS
     </h1>
