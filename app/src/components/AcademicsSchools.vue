@@ -37,7 +37,7 @@
   </div> -->
 </template>
 
-<script setup>
+<!-- <script setup>
 import { ref } from "vue";
 
 const faqs = ref([
@@ -99,4 +99,4 @@ const faqs = ref([
 const toggleAccordion = (index) => {
   faqs.value[index].open = !faqs.value[index].open;
 };
-</script>
+</script> -->

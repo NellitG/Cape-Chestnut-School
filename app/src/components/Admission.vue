@@ -5,7 +5,7 @@
         <div
           class="max-w-5xl mx-auto sm:grid sm:grid-cols-2 sm:justify-center sm:place-items-center gap-20 py-20 sm:px-10 lg:px-0 grid grid-cols-1 justify-between place-items-center"
         >
-          <h1 class="text-8xl text-primary-color">Admission</h1>
+          <h1 class="text-8xl text-fuchsia-500 ">Admission</h1>
           <a
             href="https://docs.google.com/forms/d/e/1FAIpQLScM4uJ-_KCSaHMFrVVkKVO_RhW6SSpyP58QCBRx3PVRvKlXTw/viewform?usp=sf_link"
             target="_blank"

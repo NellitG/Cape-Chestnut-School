@@ -22,7 +22,7 @@ export default {
         "slide-left-infinite": "slide-left 40s linear infinite",
       },
       backgroundImage: {
-        "people-img" : "url('./src/assets/images/cape chestnut.jpg.png')",
+        // "people-img" : "url('./src/assets/images/cape chestnut.jpg.png')",
         "dove" : "url('./src/assets/images/Amani.jpg')",
       },
 
