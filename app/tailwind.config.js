@@ -23,7 +23,7 @@ export default {
       },
       backgroundImage: {
         "people-img" : "url('./src/assets/images/profiaimg.avif')",
-        "dove" : "url('./src/assets/images/waterdove.avif')",
+        "dove" : "url('./src/assets/images/Amani.jpg')",
       },
 
       

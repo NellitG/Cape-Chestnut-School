@@ -59,7 +59,7 @@
                         data-twe-ripple-init
                         data-twe-ripple-color="light"
                         style="
-                          background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+                          background: linear-gradient(to right, #b44593, #b44593, #b44593, #a7f3d0);
                         ">
                         Sign up
                       </button>
@@ -87,17 +87,35 @@
               <!-- Right column container with background and description-->
               <div
                 class="flex items-center rounded-b-lg lg:w-6/12 lg:rounded-e-lg lg:rounded-bl-none"
-                style="background: linear-gradient(to right, #b44593, #b44593, #b44593, #4ade80)">
+                style="background: linear-gradient(to right, #b44593, #b44593, #b44593, #a7f3d0)">
                 <div class="px-4 py-6 text-white md:mx-6 md:p-12">
                   <h4 class="mb-6 text-xl font-semibold">
                     We are more than just a company
                   </h4>
-                  <p class="text-sm">
-                    Lorem ipsum dolor sit amet, consectetur adipisicing
-                    elit, sed do eiusmod tempor incididunt ut labore et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis
-                    nostrud exercitation ullamco laboris nisi ut aliquip ex
-                    ea commodo consequat.
+                  <p class="text-lg text-gray-950">
+                    Cape Chestnut School<br><br>
+                Address:<br>
+                Merisho ,<br>
+                Along the new Forest Rd<br><br>
+
+                Phone:<br>
+                +254722883181<br>
+                +254726082996<br><br>
+
+                Email:<br>
+                capechestnutschool@gmail.com<br><br>
+
+                Website:<br>
+                www.capechestnutschool.org<br><br>
+
+                Office Hours:<br>
+                Monday to Friday: 8:00 AM - 4:00 PM<br><br>
+
+                Social Media:<br>
+
+                Facebook: facebook.com/capechestnutschool<br>
+                Twitter: twitter.com/CapeChestnutSch<br>
+                Instagram: instagram.com/capechestnutschool<br>
                   </p>
                 </div>
               </div>

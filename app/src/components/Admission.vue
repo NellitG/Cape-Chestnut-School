@@ -18,7 +18,7 @@
           </a>
         </div>
       </div>
-      <div class="bg-secondary-color">
+      <!-- <div class="bg-secondary-color">
         <div class="max-w-6xl mx-auto">
           <div
             class="sm:flex-row flex-col-reverse flex justify-evenly items-center py-5 gap-5 sm:gap-0 text-white"
@@ -106,7 +106,7 @@
             </p>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 </template>
