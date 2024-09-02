@@ -7,7 +7,7 @@
         >
           <h1 class="text-8xl text-primary-color">Admission</h1>
           <a
-            href="https://docs.google.com/forms/d/e/1FAIpQLScMpwjvMblufTl-aLDPacOiPc1eD2OtH86z9kV6GaEU6TdM0w/viewform"
+            href="https://docs.google.com/forms/d/e/1FAIpQLScM4uJ-_KCSaHMFrVVkKVO_RhW6SSpyP58QCBRx3PVRvKlXTw/viewform?usp=sf_link"
             target="_blank"
           >
             <button

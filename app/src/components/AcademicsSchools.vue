@@ -1,5 +1,5 @@
 <template>
-  <div class="py-12">
+  <!-- <div class="py-12">
     <div class="">
       <h1
         class="mb-4 text-4xl font-semibold tracking-tight leading-none text-secondary-color md:text-5xl lg:text-6xl"
@@ -34,7 +34,7 @@
         </ul>
       </div>
     </div>
-  </div>
+  </div> -->
 </template>
 
 <script setup>

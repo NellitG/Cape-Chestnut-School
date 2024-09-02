@@ -1,5 +1,5 @@
 <template>
-  <section class="mx-auto max-w-7xl">
+  <!-- <section class="mx-auto max-w-7xl">
     <div class="">
       <div class="rounded-2xl p-6 border-2 border-gray-200 md:col-span-8">
         <h1
@@ -35,10 +35,10 @@
         </div>
       </div>
     </div>
-  </section>
+  </section> -->
 </template>
 
-<script setup>
+<!-- <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
 import tree from "../assets/images/Home/bOvf94dPRxWu0u3QsPjF_tree.avif"
 import bird from "../assets/images/Home/bird-8788491_1280.avif"
@@ -113,7 +113,7 @@ const handleTransitionEnd = () => {
     isTransitioning.value = false;
   }
 };
-</script>
+</script> -->
 
 <style scoped>
 .carousel-container {

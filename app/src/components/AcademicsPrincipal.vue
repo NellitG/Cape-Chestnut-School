@@ -6,12 +6,12 @@
       ACADEMICS
     </h1>
     <div class="mt-10">
-      <div class="w-full lg:col-span-8 mx-auto">
+      <div class="w-auto lg:col-span-4 mx-auto">
         <div>
           <img
-            src="@/assets/images/photo-faculty.avif"
+            src="@/assets/images/Simon.jpg"
             alt="staff"
-            class="w-full sm:w-4/5 mx-auto my-4 object-cover aspect-square rounded-2xl"
+            class="w-full h-96 sm:w-4/5 mx-auto my-4 object-cover aspect-square rounded-2xl"
             loading="lazy"
           />
         </div>
@@ -20,23 +20,21 @@
           class="mt-4 text-center border rounded-xl w-auto h-auto space-y-5 py-5"
         >
           <h1 class="text-4xl font-bold py-5 text-primary-900">
-            Message From The Principal
+            Message From The Director
           </h1>
           <p class="text-lg max-w-2xl mx-auto">
-            Welcome to our esteemed institution! At our school, we are dedicated
-            to providing high-quality education and practical training across
-            various fields. Whether you are pursuing a career in ICT, Business,
-            Engineering, Hospitality, or Beauty/Cosmetology, our programs are
-            designed to equip you with the skills and knowledge needed to
-            succeed. Our faculty are committed to your growth and excellence,
-            ensuring you are prepared for the dynamic and ever-evolving job
-            market. Join us and embark on a journey towards a bright and
-            fulfilling future.
+            Welcome to Cape Chestnut School!
+
+            Since our founding in 2018, we have been committed to creating a nurturing and dynamic environment where each child can grow, learn, and thrive. 
+            Our dedicated team of educators works tirelessly to provide a well-rounded education that not only focuses on academic excellence but also fosters creativity, curiosity, and a love for learning.
+
+            At Cape Chestnut School, we believe in the potential of every student. 
+            We are excited to partner with you in your child's educational journey and look forward to many wonderful experiences together.
           </p>
           <p>
-            Sincerely,<br />
-            Mr/Mrs<br />
-            Profia Institute
+            Warm regards,<br>
+            Simon Gatheru<br>
+            Director, Cape Chestnut School<br>
           </p>
         </div>
       </div>

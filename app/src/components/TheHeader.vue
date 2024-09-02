@@ -68,8 +68,8 @@
             <li>
               <router-link
                 to="/"
-                class="hover:text-primary-color"
-                active-class="text-primary-color"
+                class="hover:text-green-500"
+                active-class="hover:text-green-500"
                 @click.native="closeMenu"
                 >Home</router-link
               >
@@ -77,8 +77,8 @@
             <li class="relative group">
               <router-link
                 to="/academics"
-                class="hover:text-primary-color flex items-center"
-                active-class="text-primary-color"
+                class="hover:text-green-500 flex items-center"
+                active-class="hover:text-green-500"
                 @click.native="closeMenu"
               >
                 <span>Academics</span>
@@ -127,8 +127,8 @@
             <li>
               <router-link
                 to="/aboutus"
-                class="hover:text-primary-color"
-                active-class="text-primary-color"
+                class="hover:text-green-500"
+                active-class="hover:text-fuchsia-500"
                 @click.native="closeMenu"
                 >About Us</router-link
               >
@@ -136,7 +136,7 @@
             <li>
               <router-link
                 to="/news"
-                class="hover:text-primary-color"
+                class="hover:text-green-500"
                 @click.native="closeMenu"
                 >News & updates</router-link
               >
@@ -144,8 +144,8 @@
             <li>
               <router-link
                 to="/contact"
-                class="hover:text-primary-color"
-                active-class="text-primary-color"
+                class="hover:text-green-500"
+                active-class="hover:text-green-500"
                 @click.native="closeMenu"
                 >Contact Us</router-link
               >
@@ -153,8 +153,8 @@
             <li>
               <router-link
                 to="/admission"
-                class="hover:text-primary-color relative"
-                active-class="text-primary-color"
+                class="hover:text-green-500 relative"
+                active-class="hover:text-green-500"
                 @click.native="closeMenu"
               >
                 Admission
