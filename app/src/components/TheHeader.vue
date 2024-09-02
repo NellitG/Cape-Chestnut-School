@@ -82,7 +82,7 @@
                 @click.native="closeMenu"
               >
                 <span>Academics</span>
-                <span class="ml-1">&#9662;</span>
+                <span class="ml-1"></span>
               </router-link>
               <!-- <div
                 class="absolute hidden group-hover:block lg:bg-gray-100 bg-blue-500 text-gray-900 p-4 rounded mt-2 lg:mt-0 lg:w-96 left-0 w-96"
