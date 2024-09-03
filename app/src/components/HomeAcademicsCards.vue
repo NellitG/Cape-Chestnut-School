@@ -1,6 +1,6 @@
 <template>
-  <section class="py-0 lg:py-10 max-w-7xl mx-auto px-4 sm:px-8">
-    <h2 class="text-4xl font-bold text-center mb-12">What We Do</h2>
+  <section class="py-0 lg:py-0 max-w-7xl mx-auto px-0 sm:px-8">
+    <h2 class="text-4xl font-bold text-center mb-10">What We Do</h2>
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
       <!-- Card 1 -->
       <div class="w-full relative rounded-2xl overflow-hidden flex flex-col">

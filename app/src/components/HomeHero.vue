@@ -1,12 +1,12 @@
 <template>
   <div class="py-0">
-    <div class="!flex h-[90vh] w-full items-center justify-between px-0">
+    <div class="!flex h-[9vh] w-full items-center justify-between px-10 py-96">
       <img
         src="../assets/images/Home/fee 237.jpg"
         alt="bg-img"
         class="absolute inset-0 ml-auto h-full lg:rounded-bl-[100px] object-cover object-center"
       />
-      <div class="container mx-auto lg:mt-0">
+      <div class="container mx-auto lg:mt-0 sm:mt-10">
         <img
                       class="mx-auto w-48"
                       src="@/assets/images/cape chestnut.jpg.png"
