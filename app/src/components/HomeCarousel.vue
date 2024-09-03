@@ -1,36 +1,69 @@
 <template>
-  <section class="mx-auto max-w-7xl">
-    <div class="">
-      <div class="rounded-2xl p-6 md:col-span-8">
-        <div class="carousel-container">
-          <div
-            class="carousel-track"
-            :style="{
-              transform: `translateX(-${currentPosition}px)`,
-              transition: isTransitioning ? 'transform 15.5s ease' : 'none',
-            }"
-            @transitionend="handleTransitionEnd"
-          >
-            <div
-              v-for="(item, index) in extendedCarouselItems"
-              :key="index"
-              class="carousel-item"
-            >
-              <img
-                :src="item.image"
-                :alt="item.alt"
-                class="w-full sm:w-4/5 mx-auto my-4 object-cover rounded-2xl"
-                loading="lazy"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
+  <div
+    class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
+  >
+    <div class="mr-auto place-self-center lg:col-span-7">
+      <h1
+        class="max-w-2xl mb-4 justify-center text-center text-3xl font-semibold md:text-5xl xl:text-6xl"
+      >
+        Our Environment
+      </h1>
+      <p
+        class="max-w-2xl mb-6 font-light text-gray-950 lg:mb-8 md:text-lg lg:text-xl"
+      >
+        Cape Chestnut School is nestled in a beautiful, scenic environment that enhances the learning experience for our students.
+        Surrounded by lush greenery and vibrant Cape Chestnut trees, the school offers a peaceful and inspiring setting for both study and play.
+      </p> 
     </div>
-  </section>
+    <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+      <img
+        src="@/assets/images/garden.jpg"
+        alt="mockup"
+      />
+    </div>
+  </div>
+
+  <div class="hidden lg:mt-0 lg:col-span-5 lg:flex">
+      <img
+        src="@/assets/images/garden.jpg"
+        alt="mockup"
+      />
+    </div>
+
+    <div class="hidden lg:mt-10 lg:col-span-5 lg:flex">
+      <img
+        src="@/assets/images/chestnut.jpg"
+        alt="mockup"
+      />
+    </div>
+
+    <div class="hidden lg:mt-10 lg:col-span-5 lg:flex w-full">
+      <img
+        src="@/assets/images/trees.jpg"
+        alt="mockup"
+      />
+    </div>
+  <div
+    class="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
+  >
+    <div class="mr-auto place-self-center lg:col-span-7">
+      <!-- <h1
+        class="max-w-2xl mb-4 text-3xl font-semibold md:text-5xl xl:text-6xl"
+      >
+        Our Environment
+      </h1> -->
+      <p
+        class="max-w-7xl mb-6 font-semibold text-center text-gray-950 lg:mb-8 md:text-lg lg:text-xl"
+      >
+        Cape Chestnut School is nestled in a beautiful, scenic environment that enhances the learning experience for our students.
+        Surrounded by lush greenery and vibrant Cape Chestnut trees, the school offers a peaceful and inspiring setting for both study and play.
+      </p>
+    </div>
+    
+  </div>
 </template>
 
-<script setup>
+<!-- <script setup>
 import { ref, onMounted, onUnmounted } from "vue";
 import tree from "../assets/images/Home/033.jpg"
 import bird from "../assets/images/Home/062.jpg"
@@ -106,9 +139,9 @@ const handleTransitionEnd = () => {
     isTransitioning.value = false;
   }
 };
-</script>
+</script> -->
 
-<style scoped>
+<!-- <style scoped>
 .carousel-container {
   overflow: hidden;
   width: 100%;
@@ -133,4 +166,4 @@ const handleTransitionEnd = () => {
 .slide-leave-to {
   transform: translateX(100%);
 }
-</style>
+</style> -->
