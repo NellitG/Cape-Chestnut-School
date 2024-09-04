@@ -1,151 +1,47 @@
 <template>
-  <div
-    class="max-w-screen-xl px-4 py-0 mx-auto lg:gap-8 xl:gap-0 lg:py-0 lg:grid-cols-12"
-  >
-    <div class="mr-auto place-self-center lg:col-span-7 lg:-mb-14">
-      
-      <h1
-        class="max-w-2xl mb-4 text-3xl font-semibold md:text-5xl xl:text-6xl text-center mt-48"
-      >
+  <!-- First Section: Content on the left, Image on the right with added spacing -->
+  <div class="max-w-screen-xl px-4 py-12 mx-auto lg:gap-8 xl:gap-0 lg:py-0 lg:grid lg:grid-cols-12 my-12">
+    <div class="lg:col-span-6 place-self-center lg:pr-8"> <!-- Added lg:pr-8 -->
+      <h1 class="max-w-2xl mb-4 text-3xl font-semibold md:text-5xl xl:text-6xl">
         Our Environment
       </h1>
-      <p
-        class="max-w-7xl sm:mt-10 font-semibold text-center text-gray-950 lg:mb-8 md:text-lg lg:text-xl"
-      >
+      <p class="max-w-2xl sm:mt-10 font-semibold text-gray-950 lg:mb-8 md:text-lg lg:text-xl">
         Cape Chestnut School is nestled in a beautiful, scenic environment that enhances the learning experience for our students.
         Surrounded by lush greenery and vibrant Cape Chestnut trees, the school offers a peaceful and inspiring setting for both study and play.
       </p>
     </div>
+    <div class="lg:col-span-6 lg:flex justify-center lg:pl-8"> <!-- Added lg:pl-8 -->
+      <img src="@/assets/images/garden.jpg" alt="Garden Image" />
+    </div>
   </div>
-<div class="py-10">
-  <div class="mt-0 mb-24 lg:col-span-4 lg:flex">
-      <img
-        src="@/assets/images/garden.jpg"
-        alt="mockup"
-      />
-    </div>
 
-    <div class="mt-0 mb-10 lg:col-span-5 lg:flex">
-      <img
-        src="@/assets/images/chestnut.jpg"
-        alt="mockup"
-      />
+  <!-- Second Section: Image on the left, Content on the right with added spacing -->
+  <div class="max-w-screen-xl px-4 py-12 mx-auto lg:gap-8 xl:gap-0 lg:py-0 lg:grid lg:grid-cols-12 my-12">
+    <div class="lg:col-span-6 lg:flex justify-center lg:pr-8"> <!-- Added lg:pr-8 -->
+      <img src="@/assets/images/chestnut.jpg" alt="Chestnut Tree Image" />
     </div>
+    <div class="lg:col-span-6 place-self-center lg:pl-8"> <!-- Added lg:pl-8 -->
+      <h2 class="max-w-2xl mb-4 text-2xl font-semibold md:text-4xl xl:text-5xl">
+        The Garden Area
+      </h2>
+      <p class="max-w-2xl sm:mt-10 font-semibold text-gray-950 lg:mb-8 md:text-lg lg:text-xl">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+      </p>
+    </div>
+  </div>
 
-    <div class="lg:mt-10 lg:col-span-5 lg:flex w-full sm:mb-20">
-      <img
-        src="@/assets/images/trees.jpg"
-        alt="mockup"
-      />
+  <!-- Third Section: Content on the left, Image on the right with added spacing -->
+  <div class="max-w-screen-xl px-4 py-12 mx-auto lg:gap-8 xl:gap-0 lg:py-0 lg:grid lg:grid-cols-12 my-12">
+    <div class="lg:col-span-6 place-self-center lg:pr-8"> <!-- Added lg:pr-8 -->
+      <h2 class="max-w-2xl mb-4 text-2xl font-semibold md:text-4xl xl:text-5xl">
+        The Tree Grove
+      </h2>
+      <p class="max-w-2xl sm:mt-10 font-semibold text-gray-950 lg:mb-8 md:text-lg lg:text-xl">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+      </p>
     </div>
+    <div class="lg:col-span-6 lg:flex justify-center lg:pl-8"> <!-- Added lg:pl-8 -->
+      <img src="@/assets/images/trees.jpg" alt="Trees Image" />
     </div>
-  <div
-    class="grid max-w-screen-xl px-4 py-18 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
-  >  
   </div>
 </template>
-
-<!-- <script setup>
-import { ref, onMounted, onUnmounted } from "vue";
-import tree from "../assets/images/Home/033.jpg"
-import bird from "../assets/images/Home/062.jpg"
-import mountain from "../assets/images/Home/020.jpg"
-import leaf from "../assets/images/Home/fee 245.jpg"
-
-// Carousel items data
-const carouselItems = ref([
-  {
-    image:
-    leaf,
-    alt: "staff",
-  },
-  {
-    image:
-      bird,
-    alt: "staff",
-  },
-  {
-    image:
-      tree,
-    alt: "staff",
-  },
-  {
-    image:
-      mountain,
-    alt: "staff",
-  },
-]);
-
-// Duplicate the carousel items to create a seamless loop
-const extendedCarouselItems = ref([
-  ...carouselItems.value,
-  ...carouselItems.value,
-]);
-
-// Variables for carousel position and transition
-const currentPosition = ref(0);
-const isTransitioning = ref(true);
-const itemWidth = ref(0); // Width of each carousel item
-
-// Auto-slide logic
-let interval;
-const slideInterval = 3000;
-
-onMounted(() => {
-  // Calculate the width of each carousel item
-  itemWidth.value = document.querySelector(".carousel-item").offsetWidth;
-  startCarousel();
-});
-
-onUnmounted(() => {
-  stopCarousel();
-});
-
-// Methods to navigate the carousel
-const startCarousel = () => {
-  interval = setInterval(nextItem, slideInterval);
-};
-
-const stopCarousel = () => {
-  clearInterval(interval);
-};
-
-const nextItem = () => {
-  currentPosition.value += itemWidth.value;
-  isTransitioning.value = true;
-};
-
-const handleTransitionEnd = () => {
-  if (currentPosition.value >= itemWidth.value * carouselItems.value.length) {
-    currentPosition.value = 0;
-    isTransitioning.value = false;
-  }
-};
-</script> -->
-
-<!-- <style scoped>
-.carousel-container {
-  overflow: hidden;
-  width: 100%;
-}
-
-.carousel-track {
-  display: flex;
-  transition: transform 0.5s ease;
-}
-
-.carousel-item {
-  flex: 0 0 auto;
-  width: 100%;
-}
-
-.slide-enter-active,
-.slide-leave-active {
-  transition: transform 0.5s ease;
-}
-
-.slide-enter,
-.slide-leave-to {
-  transform: translateX(100%);
-}
-</style> -->
