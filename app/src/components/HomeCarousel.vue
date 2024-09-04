@@ -1,8 +1,8 @@
 <template>
   <div
-    class="max-w-screen-xl px-4 py-6 mx-auto lg:gap-8 xl:gap-0 lg:py-0 lg:grid-cols-12"
+    class="max-w-screen-xl px-4 py-0 mx-auto lg:gap-8 xl:gap-0 lg:py-0 lg:grid-cols-12"
   >
-    <div class="mr-auto place-self-center lg:col-span-7">
+    <div class="mr-auto place-self-center lg:col-span-7 lg:-mb-14">
       
       <h1
         class="max-w-2xl mb-4 text-3xl font-semibold md:text-5xl xl:text-6xl text-center mt-48"

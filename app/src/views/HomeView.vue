@@ -3,8 +3,8 @@
     <HomeHero />
     <HomeCarousel />
     <HomeAcademicsCards />
-    <HomeNewsandUpdates />
-    <HomeOurPartners />
+    <!-- <HomeNewsandUpdates /> -->
+    <!-- <HomeOurPartners /> -->
   </div>
 </template>
 

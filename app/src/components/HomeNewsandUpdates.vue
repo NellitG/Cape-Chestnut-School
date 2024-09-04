@@ -1,8 +1,8 @@
 <template>
-  <div>
-    <body class="bg-gray-100 p-4">
-      <div class="container mx-auto space-y-10">
-        <div class="bg-white p-4 border mb-4 max-w-6xl mx-auto">
+  <!-- <div> -->
+    <!-- <body class="bg-gray-100 p-4"> -->
+      <!-- <div class="container mx-auto space-y-10"> -->
+        <!-- <div class="bg-white p-4 border mb-4 max-w-6xl mx-auto">
 
           <h2 class="text-lg font-semibold mb-2">News and Updates</h2>
           
@@ -10,9 +10,9 @@
 
           <p></p>
 
-        </div>
+        </div> -->
 
-        <div class="bg-orange-100 p-4 border mb-4 max-w-6xl mx-auto">
+        <!-- <div class="bg-orange-100 p-4 border mb-4 max-w-6xl mx-auto">
           <h2 class="text-lg font-semibold mb-2">Notice</h2>
           <p>
             ATTENTION TO ALL PARENTS: FEE CLEARANCE You are
@@ -21,7 +21,7 @@
             not have cleared, will not be allowed to attend classes In case of
             clarification visit the administration office. Regards,
           </p>
-        </div>
+        </div> -->
 
         <!-- <section class="py-10 lg:py-20 max-w-7xl mx-auto px-4 sm:px-8">
           <h2 class="text-4xl font-semi-bold mb-12">
@@ -94,9 +94,9 @@
 
           </div>
         </section> -->
-      </div>
-    </body>
-  </div>
+      <!-- </div> -->
+    <!-- </body> -->
+  <!-- </div> -->
 </template>
 
 <script></script>
