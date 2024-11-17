@@ -7,31 +7,7 @@
         'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-white': !isHomePage,
       }"
     >
-      <!-- Navigation specific to homepage -->
-      <!-- <section v-if="isHomePage" class="bg-pink-400 py-4">
-        <div class="flex justify-start items-center list-none px-5 space-x-10">
-          <ul class="flex gap-5">
-            <li>
-              <router-link
-                to="/techhub"
-                class="text-white hover:text-gray-900"
-                @click.native="closeMenu"
-                >Innovation-hub</router-link
-              >
-            </li>
-            <li>
-              <router-link
-                to="/contact"
-                class="text-white hover:text-gray-900"
-                @click.native="closeMenu"
-                >Enquiries</router-link
-              >
-            </li>
-          </ul>
-        </div>
-      </section> -->
-
-      <!-- Header content -->
+    
       <div
         class="flex items-center justify-between mx-auto max-w-7xl h-full px-4 lg:px-0"
       >
@@ -48,11 +24,11 @@
             class="flex items-center"
             @click.native="closeMenu"
           >
-            <!-- <img
+            <img
               src="@/assets/images/cape chestnut.png"
               alt="Logo"
               class="h-8 lg:h-28 mb-0 mt-6 ml-12"
-            /> -->
+            />
           </router-link>
         </div>
 
