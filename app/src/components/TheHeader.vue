@@ -49,7 +49,7 @@
             @click.native="closeMenu"
           >
             <img
-              src="@/assets/images/cape chestnut.jpg.png"
+              src="@/assets/images/cape chestnut.png"
               alt="Logo"
               class="h-8 lg:h-28 mb-0 mt-6 ml-12"
             />
