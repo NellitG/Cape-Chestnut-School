@@ -100,6 +100,7 @@
 </template>
 
 <script>
+// import logo from '../assets/images/cape-chestnut.png';
 export default {
   data() {
     return {
