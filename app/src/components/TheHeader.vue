@@ -7,7 +7,10 @@
         'h-14 lg:h-24 fixed w-full top-0 inset-0 z-20 bg-white': !isHomePage,
       }"
     >
-      <div class="flex items-center justify-between mx-auto max-w-7xl h-full px-4 lg:px-0">
+    
+      <div
+        class="flex items-center justify-between mx-auto max-w-7xl h-full px-4 lg:px-0"
+      >
         <!-- Logo and menu toggle button -->
         <div class="flex items-center gap-6">
           <button
@@ -16,9 +19,13 @@
           >
             {{ close2 ? "☰" : "✘" }}
           </button>
-          <router-link to="/" class="flex items-center" @click.native="closeMenu">
+          <router-link
+            to="/"
+            class="flex items-center"
+            @click.native="closeMenu"
+          >
             <img
-              :src="logoImage"
+              src="@/assets/images/cape chestnut.png"
               alt="Logo"
               class="h-8 lg:h-28 mb-0 mt-6 ml-12"
             />
@@ -31,14 +38,17 @@
           class="bg-black lg:bg-white lg:static lg:flex lg:items-center flex-1 justify-center absolute top-14 lg:top-0 left-0 w-full lg:w-auto"
         >
           <!-- Navigation items -->
-          <ul class="flex flex-col lg:flex-row gap-6 lg:gap-8 text-white lg:text-black mt-4 lg:mt-0 lg:items-center px-4 lg:px-0">
+          <ul
+            class="flex flex-col lg:flex-row gap-6 lg:gap-8 text-white lg:text-black mt-4 lg:mt-0 lg:items-center px-4 lg:px-0"
+          >
             <li>
               <router-link
                 to="/"
                 class="hover:text-green-500"
                 active-class="hover:text-green-500"
                 @click.native="closeMenu"
-              >Home</router-link>
+                >Home</router-link
+              >
             </li>
             <li class="relative group">
               <router-link
@@ -48,7 +58,9 @@
                 @click.native="closeMenu"
               >
                 <span>Academics</span>
+                <span class="ml-1"></span>
               </router-link>
+            
             </li>
             <li>
               <router-link
@@ -56,23 +68,29 @@
                 class="hover:text-green-500"
                 active-class="hover:text-fuchsia-500"
                 @click.native="closeMenu"
-              >About Us</router-link>
+                >About Us</router-link
+              >
             </li>
+          
             <li>
               <router-link
                 to="/contact"
                 class="hover:text-green-500"
                 active-class="hover:text-green-500"
                 @click.native="closeMenu"
-              >Contact Us</router-link>
+                >Contact Us</router-link
+              >
             </li>
             <li>
               <router-link
                 to="/admission"
-                class="hover:text-green-500"
+                class="hover:text-green-500 relative"
                 active-class="hover:text-green-500"
                 @click.native="closeMenu"
-              >Admission</router-link>
+              >
+                Admission
+               
+              </router-link>
             </li>
           </ul>
         </nav>
@@ -82,13 +100,10 @@
 </template>
 
 <script>
-import logoImage from '@/assets/images/cape-chestnut.png'; // Correct import statement
-
 export default {
   data() {
     return {
       close2: true,
-      logoImage, // Bind the imported image to a data property
     };
   },
   computed: {
@@ -97,7 +112,7 @@ export default {
     },
   },
   watch: {
-    $route(to) {
+    $route(to, from) {
       if (to.path === "/") {
         this.close2 = true;
       }
